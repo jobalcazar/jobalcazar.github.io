@@ -1,4 +1,56 @@
 body {
-  background:green;
+  background:#f5f5dc;
+  margin: auto;
+  padding: 20px;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 
+
+}
+img{
+  border-radius: 25px;
+  margin: 2%;
+}
+img #onebike{
+  display: inline-block;
+  float: left;
+}
+table{
+  border: 3px solid black;
+  margin: 5px;
+  background-color: #D6DCF0;
+  border-collapse: collapse;
+}
+th,td, tr{
+  border: 1px solid black;
+}
+.prereqs{
+  display: inline-block;
+  vertical-align: baseline;
+  float: right;
+}
+
+footer{
+  margin: auto;
+  font-size: 1em;
+  font-family: sans-serif;
+}
+.links:visited{
+  color:  green ;
+}
+.links:hover{
+  color: red;
+}
+
+@media screen and (max-width: 480px) {
+  img {
+    max-width: 85%;
+    max-height: 60%;
+    padding: 2px;
+
+  }
+}
+@media screen and (max-width: 535px) {
+  table {
+    font-size: 60%
+  }
 }
