@@ -1,0 +1,21 @@
+.image_container,.center_left{
+  text-align: center;
+   vertical-align: middle;
+   display: table-cell;
+}
+
+
+img{
+  max-width: 85%;
+  max-height: 50%;
+  height:auto;
+}
+
+#major{
+  font-style: italic;
+}
+#role{
+  color: #1A41DE;
+}
+
+
